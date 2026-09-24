@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #000000;
+    margin: 0;
+    
+}
+
+h1 {
+    color: #243447;
+}
+
+h2 {
+    color: #40566b;
+}
+
+
+
+
+
+
+
+
+header {
+    background-color: #243447;
+    padding: 2em;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0.5em;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 2em;
+    vertical-align: middle;
+}
+
+
+
+
+
+.services ul {
+    padding: 0;
+}
+
+.services li {
+    background-color: white;
+    border: 0.1em solid #ccc;
+    padding: 1em;
+    margin: 0.5em 0;
+    list-style: none;
+}
+
+.services a {
+    color: #243447;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+main {
+    width: 90%;
+    padding: 2em;
+
+}
+
+
+
+
+
+
+
+
+.card {
+    background-color: white;
+    border: 0.1em solid #ccc;
+    padding: 1em;
+    margin: 1em;
+}
+
+.card img {
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+form {
+    background-color: white;
+    border: 0.1em solid #ccc;
+    padding: 1em;
+    width: 90%;
+    max-width: 30em;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+}
+
+input,
+select {
+    margin-top: 0.3em;
+    padding: 0.5em;
+    max-width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #243447;
+    color: white;
+    border: none;
+    margin-top: 1em;
+}

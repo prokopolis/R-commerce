@@ -1,58 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Register</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <a href="index.html">🎧 Home | </a>
-        <!-- 4 Categories (Services) -->
-        <a href="./services/audio-extraction.html">Audio Extraction | </a>
-        <a href="./services/audio-conversion.html">Audio Conversion | </a>
-        <a href="./services/speech-to-text.html">Speech-to-Text | </a>
-        <a href="./services/text-translation.html">Text Translation | </a>
-        <a href="../login.html">Login | </a>
-        <a href="./register.html">Register | </a>
-        <a href="index.html">Logout</a>
-    <hr>
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
 
 
-        <h1>Register</h1>
-        <h2>Please enter your data below</h2>
-        <form action="" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name">
-            <br>
-            <label for="surname">Surname:</label>
-            <input type="text" id="surname" name="surname">
-            <br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
-            <br>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password">
-            <br>
-            <label for="Date_of_birth">Date of birth:</label>
-            <input type="date" id="date_of_birth" name="date_of_birth">
-            <br>
-            <label for="sex">Sex:</label>
-            <select id="sex" name="sex">
-                <option value="masculino">Man</option>
-                <option value="femenino">Woman</option>
-                <option value="otro">Other</option>
-            </select>
-            <br>
-            <label for="subscribe">subscribe to news</label>
-            <input type="checkbox" id="subscribe" name="subscribe">
-            <br>
-            <br>
-            <input type="submit" value="Submit">
-        </form>
+<body>
+<header>
+    <nav>
+        <a href="index.html" class="logo">
+            <img src="./iconmonstr-headphones-9.svg">
+            AudioText Hub
+        </a>
+        <a href="index.html">Home </a>
+        <a href="./services/audio-extraction.html">Audio Extraction </a>
+        <a href="./services/audio-conversion.html">Audio Conversion </a>
+        <a href="./services/speech-to-text.html">Speech-to-Text </a>
+        <a href="./services/text-translation.html">Text Translation </a>
+        <a href="./login.html">Login </a>
+        <a href="./register.html">Register </a>
+        <a href="index.html">Logout </a>
+    </nav>    
+</header>
 
-        <script src="" async defer></script>
-    </body>
+
+
+<main>
+    <h1>Register</h1>
+    <h2>Please enter your data below</h2>
+    <form action="" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" name="surname">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br>
+        <label for="Date_of_birth">Date of birth:</label>
+        <input type="date" id="date_of_birth" name="date_of_birth">
+        <br>
+        <label for="sex">Sex:</label>
+        <select id="sex" name="sex">
+            <option value="masculino">Man</option>
+            <option value="femenino">Woman</option>
+            <option value="otro">Other</option>
+        </select>
+        <br>
+        <label for="subscribe">subscribe to news</label>
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</main>
+
+
+    <script src="" async defer></script>
+</body>
 </html>
