@@ -15,6 +15,15 @@ h2 {
 }
 
 
+main {
+    width: 90%;
+    max-width: 800px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 1em 0;
+}
 
 
 
@@ -27,7 +36,10 @@ header {
 }
 
 nav {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 0.5em;
 }
 
 nav a {
@@ -37,8 +49,7 @@ nav a {
 }
 
 .logo {
-    font-size: 2em;
-    font-weight: bold;
+    margin-right: auto;
 }
 
 .logo img {
@@ -50,51 +61,60 @@ nav a {
 
 
 
+.card {
+    background-color: white;
+    border: 0.1em solid #ccc;
+    border-radius: 0.5em;
+    padding: 1.5em;
+    margin: 1em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 30%;
+}
+
+.product-card {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    padding: 0;
+
+}
+
+
+
+
+
+
 .services ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
     padding: 0;
 }
 
 .services li {
     background-color: white;
     border: 0.1em solid #ccc;
-    padding: 1em;
-    margin: 0.5em 0;
+    border-radius: 0.5em;
+    padding: 1.5em;
     list-style: none;
 }
 
+.services li:hover {
+    background-color: #7a7a7a;
+}
+
 .services a {
-    color: #243447;
+    color: #17212d;
     text-decoration: none;
 }
 
+.services a:hover {
+    color:#ccc;
 
-
-
-
-
-
-main {
-    width: 90%;
-    padding: 2em;
-
-}
-
-
-
-
-
-
-
-
-.card {
-    background-color: white;
-    border: 0.1em solid #ccc;
-    padding: 1em;
-    margin: 1em;
-}
-
-.card img {
-    width: 30%;
 }
 
 
